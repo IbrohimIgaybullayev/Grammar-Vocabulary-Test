@@ -21,18 +21,18 @@ const myQuestions = [
         id: 4,
         question: "You are not taking part in today's competition, .......",
         options: { a: "are you?", b: "are not you?", c: "aren't you?", d: "will you?" },
-        correct: "c"
+        correct: "a"
     },
     {
         id: 5,
         question: "I am one of the participants in this tournament, .......",
-        options: { a: "am not I?", b: "amn't I?", c: "isn't I?", d: "aren't I?" },
+        options: { a: "am not I?", b: "am I?", c: "isn't I?", d: "aren't I?" },
         correct: "d"
     },
     {
         id: 6,
         question: "The news in this channel ...... never been misleading, ........",
-        options: { a: "have/is they?", b: "have/aren't they?", c: "has/isn't it?", d: "has/is it?" },
+        options: { a: "have/is they?", b: "have/aren't they?", c: "has/isn't it?", d: "has/has it?" },
         correct: "d"
     },
     {
@@ -62,7 +62,7 @@ const myQuestions = [
     {
         id: 11,
         question: "If I ....... you, I would just embrace that offer.",
-        options: { a: "were", b: "was", c: "am", d: "are" },
+        options: { a: "were", b: "will be", c: "am", d: "are" },
         correct: "a"
     },
     {
@@ -79,172 +79,107 @@ const myQuestions = [
     },
     {
         id: 14,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "Jack bought some candy ...... brother.",
+        options: { a: "to his", b: "for her", c: "to her", d: "for his" },
+        correct: "d"
     },
     {
         id: 15,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "All the ....... in the aquarium belong to a single species.",
+        options: { a: "fish", b: "fishes", c: "fishshes", d: "fishs" },
+        correct: "a"
     },
     {
         id: 16,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
+        question: "Standing in front of the judge, the robber ...... the bank",
+        options: { a: "denied to rob", b: "denied stealing", c: "denied robbing", d: "refused to steal" },
         correct: "c"
     },
     {
         id: 17,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "The teacher ...... go.",
+        options: { a: "allowed me", b: "permited me to", c: "let me to", d: "allowed me to" },
+        correct: "d"
     },
     {
         id: 18,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "I remembered ...... that book last time. ",
+        options: { a: "reading", b: "to read", c: "read", d: "to reading" },
+        correct: "a"
     },
     {
         id: 19,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
+        question: "Odd one out.",
+        options: { a: "arid", b: "semi-arid", c: "wet", d: "dry" },
         correct: "c"
     },
     {
         id: 20,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "Odd one out.",
+        options: { a: "passion", b: "reluctance", c: "enthusiasm", d: "eagerness" },
+        correct: "b"
     },
     {
         id: 21,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "Odd one out.",
+        options: { a: "put on", b: "take off", c: "wear", d: "try on" },
+        correct: "b"
     },
     {
         id: 22,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
+        question: "Odd one out.",
+        options: { a: "render assistance", b: "give a hand", c: "neglect", d: "aid" },
         correct: "c"
     },
     {
         id: 23,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "Odd one out.",
+        options: { a: "affordable", b: "extravagent", c: "reasonable", d: "economical" },
+        correct: "b"
     },
     {
         id: 24,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "Odd one out.",
+        options: { a: "I prefer reding a book to playing video games", b: "I prefer reding a book would rather playing video games", c: "I prefer reding a book rather than playing video games", d: "I prefer reding a book instead of playing video games" },
+        correct: "b"
     },
-    {
+    { 
         id: 25,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "I prefer commuting to the office on foot ...... catching a taxi.",
+        options: { a: "to", b: "than", c: "instead", d: "rather" },
+        correct: "a"
     },
     {
         id: 26,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "He has never disliked the transportation system here, ......",
+        options: { a: "hasn't he", b: "didn't he", c: "he has", d: "has he" },
+        correct: "d"
     },
     {
         id: 27,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
+        question: "Find the correct sentence.",
+        options: { a: "Had the car been washed, we would not have had to clean it.", b: "Had the car washed, we would have cleaned it", c: "Was the car to washed, we would have not cleaned it", d: "Were the car washed, we would not clean it." },
+        correct: "a"
     },
     {
         id: 28,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
+        question: "Find the correct sentence.",
+        options: { a: "Should he sleeps on time, he will not be late for the school. ", b: "Should you come up with questions, feel free to give.", c: "Should I prees the switch button or does it star operating automatically.", d: "Should he return to the office, say him not to call." },
         correct: "c"
     },
     {
         id: 29,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
+        question: "Find the correct sentence.",
+        options: { a: "Were he to be punctual, he would be here on time. ", b: "Were he realized the essence of accountibility, he would never miss lessons.", c: "Were he well-off, he would try to contribute to reducing the poverty", d: "Were he a narcissist, would he not thnk about others" },
         correct: "c"
     },
     {
         id: 30,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
+        question: "He was inspecting some of the old stuff .......",
+        options: { a: "hoping to find something what he wanted", b: "hoping to find what he wanted", c: "hopefully finding the thing he wanted", d: "which he is lookinng for" },
         correct: "c"
     },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
-    {
-        id: 3,
-        question: "That was the house ......... last month.",
-        options: { a: "whose I wanted to buy", b: ", which I wanted to buy", c: "which I wanted to buy", d: "which I will wanted to buy" },
-        correct: "c"
-    },
+    
 
 ];
 
