@@ -1,10 +1,10 @@
 My English Quiz Project
 
-The users have the chance to identify their possible levels by this test.
+The users have the chance to identify their possible levels via this test.
 
 Features:
 30 intiguing questions,
-Immediate calculation,
+Immediate results,
 Adaptible for almost all devices.
 
 Technologies/Languages:
