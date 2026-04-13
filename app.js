@@ -37,7 +37,7 @@ const myQuestions = [
     },
     {
         id: 7,
-        question: "None these souvenirs are affordable, ........",
+        question: "None of these souvenirs are affordable, ........",
         options: { a: "are they?", b: "aren't they?", c: "are them?", d: "aren't them?" },
         correct: "a"
     },
@@ -140,7 +140,7 @@ const myQuestions = [
     {
         id: 24,
         question: "Odd one out.",
-        options: { a: "I prefer reding a book to playing video games", b: "I prefer reding a book would rather playing video games", c: "I prefer reding a book rather than playing video games", d: "I prefer reding a book instead of playing video games" },
+        options: { a: "I prefer reading a book to playing video games", b: "I prefer reading a book would rather playing video games", c: "I prefer reading a book rather than playing video games", d: "I prefer reading a book instead of playing video games" },
         correct: "b"
     },
     { 
@@ -164,13 +164,13 @@ const myQuestions = [
     {
         id: 28,
         question: "Find the correct sentence.",
-        options: { a: "Should he sleeps on time, he will not be late for the school. ", b: "Should you come up with questions, feel free to give.", c: "Should I prees the switch button or does it star operating automatically.", d: "Should he return to the office, say him not to call." },
+        options: { a: "Should he sleeps on time, he will not be late for the school. ", b: "Should you come up with questions, feel free to give.", c: "Should I prees the switch button or does it start operating automatically.", d: "Should he return to the office, say him not to call." },
         correct: "c"
     },
     {
         id: 29,
         question: "Find the correct sentence.",
-        options: { a: "Were he to be punctual, he would be here on time. ", b: "Were he realized the essence of accountibility, he would never miss lessons.", c: "Were he well-off, he would try to contribute to reducing the poverty", d: "Were he a narcissist, would he not thnk about others" },
+        options: { a: "Were he to be punctual, he would be here on time. ", b: "Were he realized the essence of accountibility, he would never miss lessons.", c: "Were he well-off, he would try to contribute to reducing the poverty", d: "Were he a narcissist, would he not think about others" },
         correct: "c"
     },
     {
